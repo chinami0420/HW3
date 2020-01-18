@@ -1,7 +1,74 @@
 body {
   font-family: "Courier New", Courier, monospace;
+  background-color: lightgrey;
 }
 
-h3 {
-  color: lightgray;
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(27, 143, 189);
+}
+
+.container {
+  background-color: white;
+  width: 1000px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: rgb(27, 143, 189);
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border-bottom: gray;
+}
+
+#disply {
+  border-color: indianred;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+#sliderrange {
+  width: 100%;
+  height: 20px;
+}
+
+p {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.control {
+  padding-left: 20px;
+}
+
+#generate {
+  width: 200px;
+  height: 50px;
+  border: indianred solid 1px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+#copy {
+  width: 200px;
+  height: 50px;
+  border: indianred solid 1px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
 }

@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Generate password</title>
-  </head>
-  <body>
-    <div class="header">Password Generator</div>
-    <div class="container">
-      <h1>Generate a Password</h1>
-      <h3 id="">Your Secure Password</h3>
-      <button id="generate">Generate Password</button>
-      <button id="copy">Copy to Clipboard</button>
-    </div>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <script src="script.js"></script>
+      <link rel="stylesheet" href="style.css" />
+      <title>Generate password</title>
+    </head>
+    <body>
+      <div class="header">Password Generator</div>
+      <div class="container">
+        <h1>Generate a Password</h1>
+        <input type="text" id="disply" placeholder="Your Secure Password" />
+
+        <hr />
+
+        <input type="range" min="8" max="128" value="68" id="sliderrange" />
+        <p>
+          Password Length:
+          <span id="slidervalue"></span>
+        </p>
+        <hr />
+        <div class="control">
+          <input type="checkbox" id="lowercase" />
+          <label class="check-label" for="lowercase"
+            ><span class="checkbox">Use Lowercase Characters</span></label>
+        </div>
+        <div class="control">
+          <input type="checkbox" id="uppercase" />
+          <label class="check-label" for="uppercase"
+            ><span class="checkbox">Use Uppercase Characters</span></label>
+        </div>
+        <div class="control">
+          <input type="checkbox" id="numbers" />
+          <label class="check-label" for="numbers"
+            ><span class="checkbox">Use Numbers</span></label>
+        </div>
+        <div class="control">
+          <input type="checkbox" id="punctuation" />
+          <label class="check-label" for="punctuation"
+            ><span class="checkbox">Use special characters</span></label>
+        </div>
+      
+      
+        <button id="generate">Generate Password</button>
+        <button id="copy">Copy to Clipboard</button>
+      </div>
+    
+  
   </body>
 </html>
