@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: pink;
   width: 1000px;
   height: 400px;
   margin-left: auto;
@@ -21,13 +21,13 @@ body {
 h1 {
   color: rgb(27, 143, 189);
   font-size: 20px;
-  padding-left: 15px;
+  padding-left: 382px;
   padding-top: 15px;
   border-bottom: gray;
 }
 
 #disply {
-  border-color: indianred;
+  border-color: gray;
   width: 80%;
   height: 50px;
   text-align: center;
@@ -35,10 +35,10 @@ h1 {
   border-radius: 10px;
 }
 
-#sliderrange {
+/* #sliderrange {
   width: 100%;
   height: 20px;
-}
+} */
 
 p {
   margin-left: 20px;
@@ -48,27 +48,38 @@ p {
 }
 
 .control {
-  padding-left: 20px;
+  padding-left: 367px;
 }
 
-#generate {
+.generate {
   width: 200px;
   height: 50px;
-  border: indianred solid 1px;
-  background-color: white;
+  /* border: indianred solid 1px; */
+  background-color: turquoise;
   border-radius: 10px;
   text-align: center;
   margin-left: 150px;
   margin-top: 20px;
+  cursor: pointer;
 }
-#copy {
+
+.generate:hover {
+  opacity: 0.5;
+}
+
+.copy {
   width: 200px;
   height: 50px;
-  border: indianred solid 1px;
-  background-color: white;
+  /* border: indianred solid 1px; */
+  background-color: turquoise;
   border-radius: 10px;
   text-align: center;
   float: right;
   margin-right: 150px;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.copy:hover {
+  opacity: 0.5;
 }
